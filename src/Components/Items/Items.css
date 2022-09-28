@@ -1,0 +1,12 @@
+.all-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+@media screen and (max-width: 792px) {
+    .all-item {
+        grid-template-columns: 1fr;
+    }
+
+}

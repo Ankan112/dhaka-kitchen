@@ -1,0 +1,38 @@
+[
+    {
+        "img": "https://i.ibb.co/XWk3hvt/download.jpg",
+        "name": "Rice",
+        "time": 20,
+        "id": 1
+    },
+    {
+        "img": "https://i.ibb.co/cYS9382/download-1.jpg",
+        "name": "Fish",
+        "time": 35,
+        "id": 2
+    },
+    {
+        "img": "https://i.ibb.co/MGLKSTn/download-5.jpg",
+        "name": "Dal",
+        "time": 25,
+        "id": 3
+    },
+    {
+        "img": "https://i.ibb.co/1mQwf4X/download-4.jpg",
+        "name": "Chicken Curry",
+        "time": 20,
+        "id": 4
+    },
+    {
+        "img": "https://i.ibb.co/hLNQQTc/download-2.jpg",
+        "name": "Alu Bhorta",
+        "time": 10,
+        "id": 5
+    },
+    {
+        "img": "https://i.ibb.co/wwd4JCG/download-3.jpg",
+        "name": "Chicken BBQ",
+        "time": 45,
+        "id": 6
+    }
+]

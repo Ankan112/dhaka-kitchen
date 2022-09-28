@@ -1,0 +1,22 @@
+.items-wrapper {
+    margin: 0 80px;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 30px;
+}
+
+@media screen and (max-width: 792px) {
+    .items-wrapper {
+        margin: 30px;
+        text-align: center;
+    }
+
+    .items-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
