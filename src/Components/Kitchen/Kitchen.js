@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Break from '../Break/Break';
 import Items from '../Items/Items';
 import Question from '../Question/Question';
+import Icon from "react-hero-icon";
 import './Kitchen.css'
 
 const Kitchen = () => {
@@ -21,7 +22,10 @@ const Kitchen = () => {
     }
     return (
         <div className='items-wrapper'>
-            <h1>Dhaka Kitchen</h1>
+            <h1><Icon icon="fire" />
+
+
+                Dhaka Kitchen</h1>
             <h3>Select Your Items</h3>
             <div className='items-container'>
                 <div className='all-item'>

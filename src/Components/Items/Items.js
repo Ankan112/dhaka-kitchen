@@ -6,8 +6,8 @@ const Items = (props) => {
     return (
         <div className='item-card'>
             <img src={img} alt="" />
-            <h1>{name}</h1>
-            <p>Time {time}min</p>
+            <h2>{name}</h2>
+            <p>Time: {time}min</p>
             <button id='btn' onClick={() => { props.handleAddToList(props.item) }}>Add To List</button>
         </div>
     );
