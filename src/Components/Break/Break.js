@@ -13,7 +13,15 @@ const Break = (props) => {
     }
     const handleBtn = (event) => {
         setBrakeTime(event.target.value);
+        localStorage.setItem("breakTime", event.target.value);
+        // const breakTimeDb = localStorage.getItem("breakTime");
+        // if (breakTimeDb) {
+        //     setBrakeTime(breakTimeDb);
+        // }
     }
+    // console.log(breakTimeDb)
+
+
     const notify = () => toast("Wow Activity Complited");
     return (
         <div className='break-section'>
