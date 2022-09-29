@@ -1,3 +1,36 @@
-.toast {
-    z-index: 11;
+.break-section {
+    padding: 15px;
+    background-color: bisque;
+}
+
+.profile {
+    margin-bottom: 50px;
+
+}
+
+.profile div {
+    background-color: white;
+    padding: 1px 10px;
+    line-height: 10px;
+}
+
+.cooking-details {
+    background-color: white;
+    padding: 10px 10px;
+    /* line-height: 10px; */
+}
+
+.break-section h4 {
+    line-height: 10px;
+}
+
+#btn {
+    background-color: rgba(84, 170, 223, 0.795);
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
 }

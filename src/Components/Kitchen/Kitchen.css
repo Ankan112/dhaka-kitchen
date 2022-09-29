@@ -1,5 +1,5 @@
 .items-wrapper {
-    margin: 0 80px;
+    margin: 0 50px;
 }
 
 .items-container {
@@ -7,6 +7,7 @@
     grid-template-columns: 4fr 1fr;
     gap: 30px;
 }
+
 
 @media screen and (max-width: 792px) {
     .items-wrapper {

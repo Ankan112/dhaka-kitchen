@@ -1,7 +1,25 @@
 .all-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 20px;
+
+}
+
+.item-card {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 2px 5px 1px grey;
+}
+
+#btn {
+    background-color: rgba(84, 170, 223, 0.795);
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 792px) {

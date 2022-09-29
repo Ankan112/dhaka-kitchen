@@ -4,11 +4,11 @@ import './Items.css'
 const Items = (props) => {
     const { name, img, time } = props.item
     return (
-        <div>
+        <div className='item-card'>
             <img src={img} alt="" />
             <h1>{name}</h1>
             <p>Time {time}min</p>
-            <button onClick={() => { props.handleAddToList(props.item) }}>Add To List</button>
+            <button id='btn' onClick={() => { props.handleAddToList(props.item) }}>Add To List</button>
         </div>
     );
 };
